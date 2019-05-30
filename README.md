@@ -17,13 +17,13 @@ El objeto Catálogo recibe como parámetro una instancia que responde a la inter
 El conjunto de clases del patrón Abstract Factory para este ejemplo se detalla en la figura 4.1.
 
 ![Figura 4.1 - El patrón Abstract Factory aplicado a las familias de vehículos
- ](http://url/to/img.png)
+ ](https://github.com/user0able/JavaAbstractFactory/blob/master/src/img/figure31.png)
 
 ##Estructura
 ###1. Diagrama de clases
 
 ![Figura 4.2 - Estructura del patrón Abstract Factory
- ](http://url/to/img.png)
+ ](https://github.com/user0able/JavaAbstractFactory/blob/master/src/img/figure32.png)
 images/figure32.PNG
 
 
