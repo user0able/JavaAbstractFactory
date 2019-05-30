@@ -1,6 +1,11 @@
 # Build and Release Folders
 bin-debug/
 bin-release/
+.idea/
+build/
+dist/
+nbproject/
+test/
 [Oo]bj/
 [Bb]in/
 
