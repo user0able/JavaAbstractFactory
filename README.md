@@ -1,4 +1,4 @@
-# JavaAbstractFactory
+# AbstractFactory en lenguaje Java
 ## Descripción
 El objetivo del patrón Abstract Factory es la creación de objetos agrupados en familias sin tener que conocer las clases concretas destinadas a la creación de estos objetos.
 ## Ejemplo
