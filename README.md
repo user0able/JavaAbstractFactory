@@ -19,15 +19,15 @@ El conjunto de clases del patrón Abstract Factory para este ejemplo se detalla 
 ![Figura 4.1 - El patrón Abstract Factory aplicado a las familias de vehículos
  ](https://github.com/user0able/JavaAbstractFactory/blob/master/src/img/figure31.png)
 
-##Estructura
-###1. Diagrama de clases
+## Estructura
+### 1. Diagrama de clases
 
 ![Figura 4.2 - Estructura del patrón Abstract Factory
  ](https://github.com/user0able/JavaAbstractFactory/blob/master/src/img/figure32.png)
-images/figure32.PNG
 
 
-###2. Participantes
+
+### 2. Participantes
 Los participantes del patrón son los siguientes:
 
 FábricaAbstracta (FábricaVehículo) es una interfaz que define las firmas de los métodos que crean los distintos productos.
@@ -38,18 +38,18 @@ ProductoAbstractoA y ProductoAbstractoB (Scooter y Automóvil) son las clases ab
 
 Cliente es la clase que utiliza la interfaz de FábricaAbstracta.
 
-###3. Colaboraciones
+### 3. Colaboraciones
 La clase Cliente utiliza una instancia de una de las fábricas concretas para crear sus productos a partir de la interfaz FábricaAbstracta.
 
 
 Normalmente sólo es necesario crear una instancia de cada fábrica concreta, que puede compartirse por varios clientes.
 
-##Dominios de uso
+## Dominios de uso
 El patrón se utiliza en los dominios siguientes:
 
 Un sistema que utiliza productos necesita ser independiente de la forma en que se crean y agrupan estos productos.
 
 Un sistema está configurado según varias familias de productos que pueden evolucionar.
 
-#Ejemplo en Java
+# Ejemplo en Java
 Presentamos a continuación un pequeño ejemplo de uso del patrón escrito en Java. El código Java correspondiente a la clase abstracta Automovil y sus subclases aparece a continuación. Es muy sencillo, describe los cuatro atributos de los automóviles así como el método mostrarCaracteristicas que permite visualizarlas.
